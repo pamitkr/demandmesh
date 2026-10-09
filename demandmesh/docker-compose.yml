@@ -1,0 +1,12 @@
+services:
+  api:
+    build:
+      context: .
+      target: runtime
+    image: demandmesh-api:1.0.0
+    ports:
+      - "8000:8000"
+    environment:
+      DM_LOG_LEVEL: INFO
+      DM_ROUTING_TIME_LIMIT_S: "2"
+    restart: unless-stopped

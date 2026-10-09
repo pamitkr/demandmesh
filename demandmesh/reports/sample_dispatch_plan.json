@@ -1,0 +1,619 @@
+{
+  "city": "PUN",
+  "city_name": "Pune",
+  "forecast_origin": "2026-09-30",
+  "delivery_date": "2026-10-01",
+  "service_level": "p90",
+  "model_version": "v20261008-202627",
+  "demand": {
+    "orders_p50": 432.1,
+    "orders_p90_pooled": 465.6,
+    "logistics_attach_rate": 0.2,
+    "planned_freight_kg": 8577.8,
+    "drops": 24,
+    "by_zone": [
+      {
+        "zone_id": "PUN-Z01",
+        "zone_name": "Pimpri-Chinchwad",
+        "orders_p50": 169.2,
+        "kg_p50": 2950.9,
+        "orders_p90": 190.5,
+        "kg_p90": 3355.1
+      },
+      {
+        "zone_id": "PUN-Z02",
+        "zone_name": "Chakan",
+        "orders_p50": 71.7,
+        "kg_p50": 1197.5,
+        "orders_p90": 84.3,
+        "kg_p90": 1462.6
+      },
+      {
+        "zone_id": "PUN-Z03",
+        "zone_name": "Bhosari",
+        "orders_p50": 56.7,
+        "kg_p50": 891.5,
+        "orders_p90": 68.2,
+        "kg_p90": 1093.7
+      },
+      {
+        "zone_id": "PUN-Z04",
+        "zone_name": "Hadapsar",
+        "orders_p50": 70.5,
+        "kg_p50": 1160.3,
+        "orders_p90": 85.5,
+        "kg_p90": 1464.1
+      },
+      {
+        "zone_id": "PUN-Z05",
+        "zone_name": "Talawade",
+        "orders_p50": 64.1,
+        "kg_p50": 951.7,
+        "orders_p90": 76.1,
+        "kg_p90": 1202.3
+      }
+    ]
+  },
+  "fleet_available": 6,
+  "stops": [
+    {
+      "stop_id": "PUN-Z01-D01",
+      "lat": 18.623513,
+      "lon": 73.803219,
+      "demand_kg": 372.8,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 780
+    },
+    {
+      "stop_id": "PUN-Z01-D02",
+      "lat": 18.626474,
+      "lon": 73.806349,
+      "demand_kg": 372.8,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z01-D03",
+      "lat": 18.641733,
+      "lon": 73.802128,
+      "demand_kg": 372.8,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 780
+    },
+    {
+      "stop_id": "PUN-Z01-D04",
+      "lat": 18.63531,
+      "lon": 73.800123,
+      "demand_kg": 372.8,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z01-D05",
+      "lat": 18.642218,
+      "lon": 73.794005,
+      "demand_kg": 372.8,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 780
+    },
+    {
+      "stop_id": "PUN-Z01-D06",
+      "lat": 18.640174,
+      "lon": 73.807483,
+      "demand_kg": 372.8,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z01-D07",
+      "lat": 18.636534,
+      "lon": 73.812376,
+      "demand_kg": 372.8,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z01-D08",
+      "lat": 18.618955,
+      "lon": 73.797836,
+      "demand_kg": 372.8,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z01-D09",
+      "lat": 18.631791,
+      "lon": 73.795454,
+      "demand_kg": 372.8,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z02-D01",
+      "lat": 18.772888,
+      "lon": 73.859518,
+      "demand_kg": 365.6,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z02-D02",
+      "lat": 18.761733,
+      "lon": 73.847469,
+      "demand_kg": 365.6,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z02-D03",
+      "lat": 18.769274,
+      "lon": 73.869421,
+      "demand_kg": 365.6,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z02-D04",
+      "lat": 18.753909,
+      "lon": 73.847995,
+      "demand_kg": 365.6,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 780
+    },
+    {
+      "stop_id": "PUN-Z03-D01",
+      "lat": 18.635136,
+      "lon": 73.862654,
+      "demand_kg": 364.6,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z03-D02",
+      "lat": 18.620953,
+      "lon": 73.839483,
+      "demand_kg": 364.6,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 780
+    },
+    {
+      "stop_id": "PUN-Z03-D03",
+      "lat": 18.633086,
+      "lon": 73.847471,
+      "demand_kg": 364.6,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z04-D01",
+      "lat": 18.512692,
+      "lon": 73.92544,
+      "demand_kg": 366.0,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 780
+    },
+    {
+      "stop_id": "PUN-Z04-D02",
+      "lat": 18.490629,
+      "lon": 73.935259,
+      "demand_kg": 366.0,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z04-D03",
+      "lat": 18.492155,
+      "lon": 73.941024,
+      "demand_kg": 366.0,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z04-D04",
+      "lat": 18.500807,
+      "lon": 73.936114,
+      "demand_kg": 366.0,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z05-D01",
+      "lat": 18.695669,
+      "lon": 73.771722,
+      "demand_kg": 300.6,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z05-D02",
+      "lat": 18.686373,
+      "lon": 73.768405,
+      "demand_kg": 300.6,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z05-D03",
+      "lat": 18.698675,
+      "lon": 73.761073,
+      "demand_kg": 300.6,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    },
+    {
+      "stop_id": "PUN-Z05-D04",
+      "lat": 18.690738,
+      "lon": 73.767883,
+      "demand_kg": 300.6,
+      "service_min": 20.0,
+      "tw_start_min": 540,
+      "tw_end_min": 1140
+    }
+  ],
+  "depot": {
+    "lat": 18.62,
+    "lon": 73.83,
+    "name": "Pune consolidation hub",
+    "open_min": 360,
+    "close_min": 1380
+  },
+  "optimised_plan": {
+    "status": "feasible",
+    "routes": [
+      {
+        "vehicle_id": "PUN-LCV-01",
+        "stops": [
+          {
+            "stop_id": "PUN-Z02-D04",
+            "sequence": 1,
+            "arrival": "09:03",
+            "service_start": "09:03",
+            "departure": "09:23",
+            "wait_min": 0.0,
+            "load_after_kg": 365.6,
+            "leg_km": 21.01
+          },
+          {
+            "stop_id": "PUN-Z02-D02",
+            "sequence": 2,
+            "arrival": "09:27",
+            "service_start": "09:27",
+            "departure": "09:47",
+            "wait_min": 0.0,
+            "load_after_kg": 731.2,
+            "leg_km": 1.22
+          },
+          {
+            "stop_id": "PUN-Z02-D01",
+            "sequence": 3,
+            "arrival": "09:54",
+            "service_start": "09:54",
+            "departure": "10:14",
+            "wait_min": 0.0,
+            "load_after_kg": 1096.8,
+            "leg_km": 2.48
+          },
+          {
+            "stop_id": "PUN-Z02-D03",
+            "sequence": 4,
+            "arrival": "10:19",
+            "service_start": "10:19",
+            "departure": "10:39",
+            "wait_min": 0.0,
+            "load_after_kg": 1462.4,
+            "leg_km": 1.56
+          },
+          {
+            "stop_id": "PUN-Z03-D01",
+            "sequence": 5,
+            "arrival": "11:42",
+            "service_start": "11:42",
+            "departure": "12:02",
+            "wait_min": 0.0,
+            "load_after_kg": 1827.0,
+            "leg_km": 20.91
+          },
+          {
+            "stop_id": "PUN-Z03-D03",
+            "sequence": 6,
+            "arrival": "12:08",
+            "service_start": "12:08",
+            "departure": "12:28",
+            "wait_min": 0.0,
+            "load_after_kg": 2191.6,
+            "leg_km": 2.26
+          }
+        ],
+        "distance_km": 52.74,
+        "start_time": "08:00",
+        "end_time": "12:38",
+        "duration_min": 278.2,
+        "load_kg": 2191.6,
+        "utilisation": 0.877,
+        "cost_inr": 2871.13,
+        "co2_kg": 20.04
+      },
+      {
+        "vehicle_id": "PUN-LCV-02",
+        "stops": [
+          {
+            "stop_id": "PUN-Z04-D02",
+            "sequence": 1,
+            "arrival": "09:16",
+            "service_start": "09:16",
+            "departure": "09:36",
+            "wait_min": 0.0,
+            "load_after_kg": 366.0,
+            "leg_km": 25.43
+          },
+          {
+            "stop_id": "PUN-Z04-D03",
+            "sequence": 2,
+            "arrival": "09:39",
+            "service_start": "09:39",
+            "departure": "09:59",
+            "wait_min": 0.0,
+            "load_after_kg": 732.0,
+            "leg_km": 0.88
+          },
+          {
+            "stop_id": "PUN-Z04-D04",
+            "sequence": 3,
+            "arrival": "10:04",
+            "service_start": "10:04",
+            "departure": "10:24",
+            "wait_min": 0.0,
+            "load_after_kg": 1098.0,
+            "leg_km": 1.53
+          },
+          {
+            "stop_id": "PUN-Z04-D01",
+            "sequence": 4,
+            "arrival": "10:31",
+            "service_start": "10:31",
+            "departure": "10:51",
+            "wait_min": 0.0,
+            "load_after_kg": 1464.0,
+            "leg_km": 2.43
+          },
+          {
+            "stop_id": "PUN-Z03-D02",
+            "sequence": 5,
+            "arrival": "11:54",
+            "service_start": "11:54",
+            "departure": "12:14",
+            "wait_min": 0.0,
+            "load_after_kg": 1828.6,
+            "leg_km": 21.09
+          }
+        ],
+        "distance_km": 52.78,
+        "start_time": "08:00",
+        "end_time": "12:18",
+        "duration_min": 258.3,
+        "load_kg": 1828.6,
+        "utilisation": 0.731,
+        "cost_inr": 2872.24,
+        "co2_kg": 20.06
+      },
+      {
+        "vehicle_id": "PUN-LCV-03",
+        "stops": [
+          {
+            "stop_id": "PUN-Z01-D07",
+            "sequence": 1,
+            "arrival": "09:00",
+            "service_start": "09:00",
+            "departure": "09:20",
+            "wait_min": 0.0,
+            "load_after_kg": 372.8,
+            "leg_km": 3.66
+          },
+          {
+            "stop_id": "PUN-Z01-D04",
+            "sequence": 2,
+            "arrival": "09:25",
+            "service_start": "09:25",
+            "departure": "09:45",
+            "wait_min": 0.0,
+            "load_after_kg": 745.6,
+            "leg_km": 1.82
+          },
+          {
+            "stop_id": "PUN-Z01-D09",
+            "sequence": 3,
+            "arrival": "09:48",
+            "service_start": "09:48",
+            "departure": "10:08",
+            "wait_min": 0.0,
+            "load_after_kg": 1118.4,
+            "leg_km": 0.88
+          },
+          {
+            "stop_id": "PUN-Z01-D08",
+            "sequence": 4,
+            "arrival": "10:14",
+            "service_start": "10:14",
+            "departure": "10:34",
+            "wait_min": 0.0,
+            "load_after_kg": 1491.2,
+            "leg_km": 2.03
+          },
+          {
+            "stop_id": "PUN-Z01-D01",
+            "sequence": 5,
+            "arrival": "10:37",
+            "service_start": "10:37",
+            "departure": "10:57",
+            "wait_min": 0.0,
+            "load_after_kg": 1864.0,
+            "leg_km": 1.06
+          },
+          {
+            "stop_id": "PUN-Z01-D02",
+            "sequence": 6,
+            "arrival": "10:59",
+            "service_start": "10:59",
+            "departure": "11:19",
+            "wait_min": 0.0,
+            "load_after_kg": 2236.8,
+            "leg_km": 0.65
+          }
+        ],
+        "distance_km": 13.73,
+        "start_time": "08:49",
+        "end_time": "11:30",
+        "duration_min": 161.2,
+        "load_kg": 2236.8,
+        "utilisation": 0.895,
+        "cost_inr": 1857.08,
+        "co2_kg": 5.22
+      },
+      {
+        "vehicle_id": "PUN-LCV-04",
+        "stops": [
+          {
+            "stop_id": "PUN-Z05-D01",
+            "sequence": 1,
+            "arrival": "09:00",
+            "service_start": "09:00",
+            "departure": "09:20",
+            "wait_min": 0.0,
+            "load_after_kg": 300.6,
+            "leg_km": 14.58
+          },
+          {
+            "stop_id": "PUN-Z05-D03",
+            "sequence": 2,
+            "arrival": "09:25",
+            "service_start": "09:25",
+            "departure": "09:45",
+            "wait_min": 0.0,
+            "load_after_kg": 601.2,
+            "leg_km": 1.64
+          },
+          {
+            "stop_id": "PUN-Z05-D04",
+            "sequence": 3,
+            "arrival": "09:50",
+            "service_start": "09:50",
+            "departure": "10:10",
+            "wait_min": 0.0,
+            "load_after_kg": 901.8,
+            "leg_km": 1.59
+          },
+          {
+            "stop_id": "PUN-Z05-D02",
+            "sequence": 4,
+            "arrival": "10:12",
+            "service_start": "10:12",
+            "departure": "10:32",
+            "wait_min": 0.0,
+            "load_after_kg": 1202.4,
+            "leg_km": 0.68
+          },
+          {
+            "stop_id": "PUN-Z01-D05",
+            "sequence": 5,
+            "arrival": "10:55",
+            "service_start": "10:55",
+            "departure": "11:15",
+            "wait_min": 0.0,
+            "load_after_kg": 1575.2,
+            "leg_km": 7.84
+          },
+          {
+            "stop_id": "PUN-Z01-D03",
+            "sequence": 6,
+            "arrival": "11:19",
+            "service_start": "11:19",
+            "departure": "11:39",
+            "wait_min": 0.0,
+            "load_after_kg": 1948.0,
+            "leg_km": 1.2
+          },
+          {
+            "stop_id": "PUN-Z01-D06",
+            "sequence": 7,
+            "arrival": "11:41",
+            "service_start": "11:41",
+            "departure": "12:01",
+            "wait_min": 0.0,
+            "load_after_kg": 2320.8,
+            "leg_km": 0.83
+          }
+        ],
+        "distance_km": 32.94,
+        "start_time": "08:16",
+        "end_time": "12:15",
+        "duration_min": 238.8,
+        "load_kg": 2320.8,
+        "utilisation": 0.928,
+        "cost_inr": 2356.37,
+        "co2_kg": 12.52
+      }
+    ],
+    "unserved_stop_ids": [],
+    "vehicles_used": 4,
+    "total_distance_km": 152.19,
+    "total_cost_inr": 9956.82,
+    "total_co2_kg": 57.83,
+    "served_demand_kg": 8577.8,
+    "iterations": 4758,
+    "solve_time_s": 2.0,
+    "operator_weights": {
+      "destroy:random": 3.362,
+      "destroy:worst": 4.075,
+      "destroy:shaw": 4.896,
+      "destroy:route": 2.781,
+      "repair:greedy": 4.04,
+      "repair:regret2": 4.176
+    }
+  },
+  "baseline_plan": {
+    "method": "nearest-neighbour dispatch (capacity + time-window aware)",
+    "vehicles_used": 4,
+    "total_distance_km": 191.85,
+    "total_cost_inr": 10988.05,
+    "total_co2_kg": 72.9,
+    "unserved_stop_ids": []
+  },
+  "savings_vs_baseline": {
+    "distance_pct": 0.2067,
+    "cost_pct": 0.0939,
+    "vehicles_saved": 0,
+    "co2_kg_saved": 15.07,
+    "comparable": true
+  },
+  "assumptions": {
+    "cost_per_km_inr": 26.0,
+    "fixed_cost_per_vehicle_inr": 1500.0,
+    "avg_speed_kmph": 20.0,
+    "circuity_factor": 1.4,
+    "max_drop_kg": 400.0,
+    "drop_locations": "synthetic buyer premises within 1.5 km of the zone centroid"
+  }
+}
